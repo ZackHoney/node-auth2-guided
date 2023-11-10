@@ -13,7 +13,7 @@ const restricted = (req, res, next) => {
       }
     })
   } else {
-    next({ status: 401, message: 'no token'})
+    next({ status: 401, message: 'What!?!?!?! No token?'})
   }
 }
 
